@@ -1,0 +1,101 @@
+.Form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.textArea {
+    padding: 15px;
+    width: 500px;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    resize: none;
+    outline: none;
+}
+
+.btnGrp {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.btnSave {
+    background-color: #6e85b7;
+    color: white;
+    border: none;
+    outline: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+}
+
+.red:focus::after {
+    content: "\2713";
+    font-weight: bold;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.pink:focus::after {
+    content: "\2713";
+    font-weight: bold;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.yellow:focus::after {
+    content: "\2713";
+    font-weight: bold;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.blue:focus::after {
+    content: "\2713";
+    font-weight: bold;
+}
+
+.green {
+    background-color: green;
+}
+
+.green:focus::after {
+    content: "\2713";
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+    .textArea {
+        width: 300px;
+    }
+
+    .btnGrp {
+        flex-direction: column;
+    }
+
+    .btnSave {
+        margin-top: 10px;
+    }
+}

@@ -1,0 +1,32 @@
+
+.Notes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Card{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+    background-color: #F8F9D7;
+    box-shadow: -3px 3px 11px -3px rgba(0,0,0,0.75);
+    margin: 20px 5px;
+    color: #000;
+    position: relative;
+}
+
+.closeBtn{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.editBtn{
+    cursor: pointer;
+    position: absolute;
+    right: 30px;
+    top: 10px;
+}
